@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="pt-nr">
+
+<head>
+    <title>Projeto Ecommerce</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/node_modules/bootstrap/compiler/style.css">
+
+</head>
+
+<body>
+    <!-- Início da navbar, é o menu superior com os links para os produtos e a barra de pesquisa-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" h1 mb-0 href="#">NomeDoSite</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite"><!-- Essa classe faz com que habilite um menu hamburguer quando a tela começa a ficar pequena como em smartphones-->
+
+                <ul class="navbar-nav mr-auto"><!-- Início dos links no menu-->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Motos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bicicletas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Patinetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Monociclos</a>
+                    </li>
+
+                </ul><!-- Fim dos itens no menu-->
+                <!-- Início do menu de redes sociais-->
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle"  href="#" data-toggle="dropdown" id="navDrop">
+                            Social
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Facebook</a>
+                            <a class="dropdown-item" href="#">Twitter</a>
+                            <a class="dropdown-item" href="#">Instagram</a>
+                        </div>
+
+                    </li>
+
+                </ul><!-- Fim do menu de redes sociais-->
+                <!-- Início da barra de pesquisa-->
+                <form class="form-inline">
+                    <input class="form-control ml-2 mr-2 bg-light" type="search" placeholder="Buscar...">
+                    <button class="btn btn-light" type="Submit">Ok</button>
+                </form><!-- Fim da barra de pesquisa-->
+
+            </div>
+
+        </div>
+
+    </nav><!-- Fim da navbar-->
+
+    <!-- Início do carousel-->
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+        
+        <div class="container"> <!--inicio do container, deixei comentado para ver isso no final do site-->
+        
+            <!--Abaixo são aquelas barrinhas que indicam qual imagem do carousel você está vendo -->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselSite" data-slide-to="1" ></li>
+                <li data-target="#carouselSite" data-slide-to="2" ></li>
+            </ol>
+        
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img src="img/bike-1.jpg" class="img-fluid d-block">
+                    <div class="carousel-caption">
+                        <h3>Bicileta Elétrica</h3>
+                        <p>Aqui tem um texto muito louco falando sobre nossos produtos eletricos</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/motorcicle-1.jpg" class="img-fluid d-block">
+                    <div class="carousel-caption">
+                        <h3>Moto Elétrica</h3>
+                        <p>Aqui tem um texto muito louco falando sobre nossos produtos eletricos</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/scooter-1.jpg" class="img-fluid d-block">
+                    <div class="carousel-caption">
+                        <h3>Scooter Elétrica</h3>
+                        <p>Aqui tem um texto muito louco falando sobre nossos produtos eletricos</p>
+                    </div>
+                </div>
+       
+            </div><!--fim do container-->
+        </div>
+
+        <!-- Início dos controles de Próximo e Anterior do carousel-->
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+        <!-- Fim dos controles do carousel-->
+
+    </div>
+    <!-- Fim do carousel-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <h1 class="display-3">Seja bem vindo a esse sitezão da porra</h1>
+                <p>Aqui tem um textão grande do quanto nosso produto é foda e que vc deve comprar ele sem pensar duas vezes</p>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-3">
+                <nav id="navbarVertical" class="navbar navbar-light bg-light">
+                    <nav class="nav nav-pills flex-column">
+                        
+                        <a class="nac-link my-2" href="#item1">Item 1 do texto vertical</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ml-3" href="#item11">Item 1 do subitem texto vertical</a>
+                                <a class="nav-link ml-3" href="#item12">Item 2 do subitem texto vertical</a>
+                            </nav>
+                        
+                        <a class="nac-link my-2" href="#item2">Item 2 do texto vertical</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item21">Item 1 do subitem texto vertical</a>
+                            <a class="nav-link ml-3" href="#item22">Item 2 do subitem texto vertical</a>
+                        </nav>
+                        
+                        <a class="nac-link my-2" href="#item3">Item 3 do texto vertical</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item31">Item 1 do subitem texto vertical</a>
+                            <a class="nav-link ml-3" href="#item32">Item 2 do subitem texto vertical</a>
+                        </nav>
+                    </nav>
+                </nav>
+            </div>
+            
+            <div class="col-9">
+
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+                    <h4 id="item1">Aqui tem um título</h4>
+                    <p>aqui tem um textão grande e maneiro chamativo</p>
+                    
+                    <h5 id="item11">Aqui tem um título 1.1</h5>
+                    <p>aqui tem um textão grande e maneiro chamativo</p>
+
+                    <h5 id="item12">Aqui tem um título 1.2</h5>
+                    <p>aqui tem um textão grande e maneiro chamativo</p>
+
+
+                    <h4 id="item2">Aqui tem um título</h4>
+                    <p>aqui tem um textão grande e maneiro chamativo</p>
+                    
+                    <h5 id="item21">Aqui tem um título 1.1</h5>
+                    <p>aqui tem um textão grande e maneiro chamativo</p>
+
+                    <h5 id="item22">Aqui tem um título 1.2</h5>
+                    <p>aqui tem um textão grande e maneiro chamativo</p>
+
+
+                    <h4 id="item3">Aqui tem um título</h4>
+                    <p>aqui tem um textão grande e maneiro chamativo</p>
+
+                    <h5 id="item31">Aqui tem um título 1.1</h5>
+                    <p>aqui tem um textão grande e maneiro chamativo</p>
+
+                    <h5 id="item32">Aqui tem um título 1.2</h5>
+                    <p>aqui tem um textão grande e maneiro chamativo</p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
