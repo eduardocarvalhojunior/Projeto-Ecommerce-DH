@@ -4,7 +4,7 @@
 
         <!-- <div class="container"> -->
 
-        <a class="navbar-brand" h1 mb-0 href="index.php">Mobilidade Urbana</a>
+        <a class="navbar-brand"  href="index.php">Mobilidade Urbana</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
             <span class="navbar-toggler-icon"></span>
@@ -32,10 +32,7 @@
                     <a class="nav-link" href="motos-eletricas.php">Motos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Quem Somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="contato.php">Contato</a>
                 </li>
 
             </ul><!-- Fim dos itens no menu-->
@@ -52,7 +49,7 @@
                     <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-user"></i></i></a>
+                    <a class="nav-link" href="login.php"><i class="fas fa-user"></i></i></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></i></a>
@@ -62,7 +59,7 @@
             <!-- Início da barra de pesquisa-->
             <form class="form-inline">
                 <input class="form-control ml-2 bg-light" type="search" placeholder="Buscar...">
-                <button class="btn btn-light" type="Submit">Ok</button>
+                <button class="btn btn-light ml-2" type="Submit">Ok</button>
             </form><!-- Fim da barra de pesquisa-->
 
         </div>

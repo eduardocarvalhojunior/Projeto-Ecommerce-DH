@@ -2,9 +2,7 @@
 <?php include_once("./inc/header.php"); ?>
 
     <!-- Início do carousel-->
-    <div id="carouselSite" class="carousel slide" data-interval="false"> <!-- data-ride="carousel"-->
-
-        <!--<div class="container"> inicio do container, deixei comentado para ver isso no final do site-->
+    <div id="carouselSite" class="carousel slide" data-ride="carousel"> <!-- data-interval="false"-->
 
         <!--Abaixo são aquelas barrinhas que indicam qual imagem do carousel você está vendo -->
         <ol class="carousel-indicators">
@@ -14,41 +12,40 @@
             <li data-target="#carouselSite" data-slide-to="3"></li>
         </ol>
 
-        <div class="carousel-inner" width:100%; height: 500px !important;">
+        <div class="carousel-inner" width:100%; height: 500px !important;>
 
             <div class="carousel-item active">
-                <img src="img/banner/Banner-bike-2-2.jpg" class="img-fluid d-block" width="1920" height="500">
+                <img src="./assets/img/Banner-bike-2-2.jpg" class="img-fluid d-block">
                 <div class="carousel-caption">
-                    <h3>Bicileta Elétrica</h3>
-                    <p>Aqui tem um texto muito louco falando sobre nossos produtos eletricos</p>
+                    <!--<h3>Bicileta Elétrica</h3>
+                    <p>Aqui tem um texto muito louco falando sobre nossos produtos eletricos</p>-->
                 </div>
             </div>
 
             <div class="carousel-item">
-                <img src="img/banner/banner-patinete-1-2.jpg" class="img-fluid d-block" height="700" width="1920">
+                <img src="./assets/img/banner-patinete-1-2.jpg" class="img-fluid d-block">
                 <div class="carousel-caption">
-                    <h3>Patinete Elétrico</h3>
-                    <p>Aqui tem um texto muito louco falando sobre nossos produtos eletricos</p>
+                    <!--<h3>Patinete Elétrico</h3>
+                    <p>Aqui tem um texto muito louco falando sobre nossos produtos eletricos</p>-->
                 </div>
             </div>
 
             <div class="carousel-item">
-                <img src="img/banner/banner-monociclo-1-2.jpg" class="img-fluid d-block">
+                <img src="./assets/img/banner-monociclo-1-2.jpg" class="img-fluid d-block">
                 <div class="carousel-caption">
-                    <h3>Monociclo Elétrico</h3>
-                    <p>Aqui tem um texto muito louco falando sobre nossos produtos eletricos</p>
+                    <!--<h3>Monociclo Elétrico</h3>
+                    <p>Aqui tem um texto muito louco falando sobre nossos produtos eletricos</p>-->
                 </div>
             </div>
 
             <div class="carousel-item">
-                <img src="img/banner/banner-moto-2.jpg" class="img-fluid d-block">
+                <img src="./assets/img/banner-moto-2.jpg" class="img-fluid d-block">
                 <div class="carousel-caption">
-                    <h3>Moto Elétrica</h3>
-                    <p>Aqui tem um texto muito louco falando sobre nossos produtos eletricos</p>
+                    <!--<h3>Moto Elétrica</h3>
+                    <p>Aqui tem um texto muito louco falando sobre nossos produtos eletricos</p>-->
                 </div>
             </div>
 
-            <!--</div>fim do container-->
         </div>
 
         <!-- Início dos controles de Próximo e Anterior do carousel-->
@@ -65,14 +62,14 @@
     </div>
     <!-- Fim do carousel-->
 
-    <!-- <div class="container"> -->
-    <div class="row">
-        <div class="col-12 text-center mt-5">
-            <h1 class="display-3">O futuro é elétrico!</h1>
-            <p>Veja abaixo nossos produtos e apaixone-se 
+    <div class="row-futuro">
+        <div class="text-center mt-5">
+            <h1 class="display-3 fonte-slogam">O futuro é elétrico!</h1>
+            <p class="fonte-slogam">Veja abaixo nossos produtos e apaixone-se 
             </p>
         </div>
     </div>
+
     <main>
         <div>
             <!-- inicio dos cards abaixo-->
@@ -80,12 +77,12 @@
 
                 <div class="col-sm">
                     <div class="card mx-auto">
-                        <img class="card-img-top" src="img/card/card-bicicleta-2.jpg">
-                        <div class="card-body">
-                            <h4 class="card-tittle">Bicicletas</h4>
+                        <img class="card-img-top" src="./assets/img/card-bicicleta-2.jpg">
+                        <div class="card-body text-center">
+                            <h4 class="card-tittle ">Bicicletas</h4>
                             <h6 class="card-subtitle mb-2 text-muted">Conforto e performance para suas atividades</h6>
                             <!--<p class="card-text">Aqui tem o primeiro card, yeah!</p>-->
-                            <a href="#" class="card-link">Ver modelos</a>
+                            <a class="btn btn-outline-secondary" href="#" role="button">Ver modelos</a>
                             
                         </div>
                     </div>
@@ -94,12 +91,12 @@
 
                 <div class="col-sm">
                     <div class="card mx-auto">
-                        <img class="card-img-top" src="img/card/card-patinete-2.jpg">
-                        <div class="card-body">
+                        <img class="card-img-top" src="./assets/img/card-patinete-2.jpg">
+                        <div class="card-body text-center">
                             <h4 class="card-tittle">Patinetes</h4>
                             <h6 class="card-subtitle mb-2 text-muted">Mobilidade e economia para qualquer hora</h6>
                             <!--<p class="card-text">Aqui tem o primeiro card, yeah!</p>-->
-                            <a href="#" class="card-link">Ver modelos</a>
+                            <a class="btn btn-outline-secondary" href="#" role="button">Ver modelos</a>
                             
                         </div>
                     </div>
@@ -108,12 +105,12 @@
 
                 <div class="col-sm">
                     <div class="card mx-auto">
-                        <img class="card-img-top" src="img/card/card-monociclo-2.jpg">
-                        <div class="card-body">
+                        <img class="card-img-top" src="./assets/img/card-monociclo-2.jpg">
+                        <div class="card-body text-center">
                             <h4 class="card-tittle">Monociclos</h4>
                             <h6 class="card-subtitle mb-2 text-muted">Praticidade para o dia a dia</h6>
                             <!--<p class="card-text">Aqui tem o primeiro card, yeah!</p>-->
-                            <a href="#" class="card-link">Ver modelos</a>
+                            <a class="btn btn-outline-secondary" href="#" role="button">Ver modelos</a>
                             
                         </div>
                     </div>
@@ -122,12 +119,12 @@
 
                 <div class="col-sm">
                     <div class="card mx-auto">
-                        <img class="card-img-top" src="img/card/card-scooter-3.jpg">
-                        <div class="card-body">
+                        <img class="card-img-top" src="./assets/img/card-scooter-3.jpg">
+                        <div class="card-body text-center">
                             <h4 class="card-tittle">Motos</h4>
                             <h6 class="card-subtitle mb-2 text-muted">Elegância e economia na sua rotina</h6>
                             <!--<p class="card-text">Aqui tem o primeiro card, yeah!</p>-->
-                            <a href="#" class="card-link">Ver modelos</a>
+                            <a class="btn btn-outline-secondary" href="#" role="button">Ver modelos</a>
                             
                         </div>
                     </div>
@@ -137,38 +134,37 @@
 
             </div> <!-- fim dos cards-->
         </div>
-        <!--</div> -->
 
-        <article class="article-font">
+        <article class="fonte-site">
             <div>
                 <h2>Veículos elétricos são o futuro da mobilidade urbana</h2>
                 <p class="text-muted">Venha com a gente saber mais sobre esse futuro!</p>
-                <a href="#" rel="noopener noreferrer" title="Não há link, nem precisa clicar">Acessar</a>
+                <a href="#" rel="noopener noreferrer" title="">Ver todos os modelos</a>
             </div>
             <div>
-                <img src="img/view/view-cidade-4.jpg" alt="Imagem 02">
+                <img src="./assets/img/view-cidade-4.jpg" alt="Imagem 02">
             </div>
         </article>
 
-        <article class="article-font">
+        <article class="fonte-site">
             <div>
                 <h2>Inscreva-se para receber novidades e promoções!</h2>
                 <p class="text-muted"></p>
-                <a href="#" rel="noopener noreferrer" title="Não há link, nem precisa clicar">Me inscrever</a>
+                <a href="#" rel="noopener noreferrer" title="">Se inscrever</a>
             </div>
             <div>
-                <img src="img/view/view-cidade-6.jpg" alt="Imagem 02">
+                <img src="./assets/img/view-cidade-6.jpg" alt="Imagem 02">
             </div>
         </article>
 
-        <article class="article-font">
+        <article class="fonte-site">
             <div>
                 <h2>Fale conosco ;)</h2>
                 <p>Entre em contato com a gente e tire suas dúvidas.</p>
-                <a href="#" rel="noopener noreferrer" title="Não há link, nem precisa clicar">Entrar em contato</a>
+                <a href="#" rel="noopener noreferrer" title="">Entrar em contato</a>
             </div>
             <div>
-                <img src="img/view/view-fale-conosco.jpg" alt="Imagem 02">
+                <img src="./assets/img/view-fale-conosco-2.jpg" alt="Imagem 02">
             </div>
         </article>
     </main>
