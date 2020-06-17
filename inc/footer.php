@@ -1,4 +1,4 @@
-<footer class="footer mt-auto py-1">
+<footer class="footer mt-auto py-1 fixed-bottom">
 
     <div class="container">
         <h5 class="text-center mt-2">

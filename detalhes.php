@@ -4,7 +4,7 @@
 <main class="container-fluid">
     <div class="row d-flex justify-content-between">
         <div class="col-lg-6">
-            <img src="./img/card-bicicleta-1.jpg" class="img-fluid d-block">
+            <img src="./assets/img/card-bicicleta-1.jpg" class="img-fluid d-block">
         </div>
         <div class="col-lg-6">
             <h2>Produto</h2>
