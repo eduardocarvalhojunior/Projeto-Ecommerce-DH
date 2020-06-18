@@ -49,7 +49,7 @@
                     <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.php"><i class="fas fa-user"></i></i></a>
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin"><i class="fas fa-user"></i></i></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></i></a>
