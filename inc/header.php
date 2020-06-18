@@ -57,7 +57,7 @@
 
             </ul><!-- Fim do menu de redes sociais-->
             <!-- Início da barra de pesquisa-->
-            <form class="form-inline">
+            <form class="form-inline mb-0">
                 <input class="form-control ml-2 bg-light" type="search" placeholder="Buscar...">
                 <button class="btn btn-light ml-2" type="Submit">Ok</button>
             </form><!-- Fim da barra de pesquisa-->
