@@ -12,7 +12,7 @@
             <input class="field-contato" name="name" placeholder="Nome">
             <input class="field-contato" name="email" placeholder="E-mail">
             <textarea class="field-contato field-textarea" name="mensagem" placeholder="Digie sua mensagem aqui."></textarea>
-            <a class="btn btn-outline-secondary" href="#" role="button">Enviar</a>
+            <a class="btn btn-primary" href="#" role="button">Enviar</a>
 
         </form>
     </div>

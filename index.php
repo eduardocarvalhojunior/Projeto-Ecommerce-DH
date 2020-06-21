@@ -83,7 +83,7 @@
                         <h4 class="card-tittle ">Bicicletas</h4>
                         <h6 class="card-subtitle mb-2 text-muted">Conforto e performance para suas atividades</h6>
                         <!--<p class="card-text">Aqui tem o primeiro card, yeah!</p>-->
-                        <a class="btn btn-outline-secondary" href="#" role="button">Ver modelos</a>
+                        <a class="btn btn-outline-primary" href="#" role="button">Ver modelos</a>
 
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                         <h4 class="card-tittle">Patinetes</h4>
                         <h6 class="card-subtitle mb-2 text-muted">Mobilidade e economia para qualquer hora</h6>
                         <!--<p class="card-text">Aqui tem o primeiro card, yeah!</p>-->
-                        <a class="btn btn-outline-secondary" href="#" role="button">Ver modelos</a>
+                        <a class="btn btn-outline-primary" href="#" role="button">Ver modelos</a>
 
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                         <h4 class="card-tittle">Monociclos</h4>
                         <h6 class="card-subtitle mb-2 text-muted">Praticidade para o dia a dia</h6>
                         <!--<p class="card-text">Aqui tem o primeiro card, yeah!</p>-->
-                        <a class="btn btn-outline-secondary" href="#" role="button">Ver modelos</a>
+                        <a class="btn btn-outline-primary" href="#" role="button">Ver modelos</a>
 
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                         <h4 class="card-tittle">Motos</h4>
                         <h6 class="card-subtitle mb-2 text-muted">Elegância e economia na sua rotina</h6>
                         <!--<p class="card-text">Aqui tem o primeiro card, yeah!</p>-->
-                        <a class="btn btn-outline-secondary" href="#" role="button">Ver modelos</a>
+                        <a class="btn btn-outline-primary" href="#" role="button">Ver modelos</a>
 
                     </div>
                 </div>

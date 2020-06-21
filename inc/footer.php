@@ -26,17 +26,17 @@
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu Email">
-                        <small id="emailHelp" class="form-text text-muted">Suas informações estão seguras conosco.</small>
+                        <!--<small id="emailHelp" class="form-text text-muted">Suas informações estão seguras conosco.</small> -->
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Senha</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua Senha">
                     </div>
-                    <div class="form-group form-check">
+                    <!--<div class="form-group form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Li e concordo com os <a href="termos-condicoes.php" class="text-info">Termos de Serviço.</a></label>
-                    </div>
-                    <button type="submit" class="btn btn-info">Login</button>
+                    </div> -->
+                    <button type="submit" class="btn btn-primary">Login</button>
                     <button type="reset" class="btn btn-secondary">Limpar</button>
                 </form>
                 <small class="d-block w-100 text-muted">Ainda não possui uma conta? <a href="registro.php" class="text-info">Crie agora!</a>.</small>

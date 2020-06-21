@@ -210,3 +210,22 @@ aside article a {
     margin-left: 15%;
     margin-right: 15%;
 }
+
+/*historico de pedidos*/
+.historico-pedidos {
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.lista-usuarios {
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.lista-produtos {
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
