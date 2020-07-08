@@ -130,7 +130,7 @@
         <div>
             <h2>Fale conosco ;)</h2>
             <p>Entre em contato com a gente e tire suas dúvidas.</p>
-            <a href="#" rel="noopener noreferrer" title="">Entrar em contato</a>
+            <a href="contato" rel="noopener noreferrer" title="">Entrar em contato</a>
         </div>
         <div>
             <img src="{{ asset("img/view-fale-conosco-2.jpg") }}" alt="Imagem 02">
