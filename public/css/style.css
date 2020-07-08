@@ -1,0 +1,232 @@
+.scrollspySite {
+    position: relative;
+    overflow: auto;
+    height: 510px;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+#carouselDetalhes .carousel-item {
+    max-height: 380px;
+    overflow-y: hidden;
+}
+
+.fonte-site {
+    
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+}
+
+.fonte-slogam {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    margin-bottom: 120px;
+}
+
+main article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+main article div {
+    flex: 1 1 100%;
+    margin: auto;
+}
+
+main article div h2,
+main article div p,
+main article div a {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+main article div h2 {
+    font-size: 1.25em;
+}
+
+main article div p,
+main article div a {
+    font-weight: 300;
+    font-size: 0.66em;
+}
+
+main article div a {
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+main article div img {
+    width: 110%;
+    height: auto;
+}
+
+aside article {
+    margin: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+aside article div {
+    flex-flow: column nowrap;
+}
+
+aside article a {
+    margin: 30px;
+    width: 75%;
+}
+
+#mapaContato {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+    header p {
+        margin: 25vh auto 25px auto;
+        width: 64%;
+        font-size: 2em;
+        line-height: 1.25em;
+    }
+
+    main article div {
+        flex: 0 1 33%;
+        margin: auto;
+    }
+
+    main article:nth-child(even) div:nth-child(2) {
+        order: -1;
+    }
+
+    main article div img {
+        float: right;
+    }
+
+    aside h2:first-child {
+        text-align: left;
+    }
+
+    aside h2 {
+        width: 75%;
+        margin: 30px auto;
+    }
+
+    aside div {
+        width: 75%;
+        margin: auto;
+    }
+
+    aside div img {
+        flex: 1 1 0;
+        width: 30%;
+    }
+
+    aside article {
+        margin: 50px auto;
+        width: 75%;
+        flex-flow: row nowrap;
+        align-items: flex-end;
+    }
+
+    aside article div {
+        margin: 0;
+        width: 50%;
+        flex-flow: row wrap;
+    }
+}
+
+.solid-line {
+    border-top: 1px solid #757575;
+}
+
+/*Footer*/
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+  
+.footer {
+    background-color: #f5f5f5;
+}
+
+/*contato*/
+.formulario-contato-secao {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+.formulario-contato {
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-contato {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    color: rgb(131, 129, 129);
+}
+
+.field-textarea {
+    height: 150px;
+}
+
+/*politica de privacidade*/
+.politica-privacidade {
+    margin-top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*termos e condições*/
+.termos-condicoes {
+    margin-top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*historico de pedidos*/
+.historico-pedidos {
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.lista-usuarios {
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.lista-produtos {
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
