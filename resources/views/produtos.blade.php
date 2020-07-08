@@ -15,13 +15,13 @@
                 <th scope="col">COR</th>
                 <th scope="col">PREÇO</th>
                 <th scope="col">QUANTIDADE</th>
-                <th scope="col">QUADRO</th>
-                <th scope="col">ARO</th>
-                <th scope="col">PNEU</th>
-                <th scope="col">FREIO</th>
-                <th scope="col">CARGA MÁXIMA</th>
-                <th scope="col">CAMBIO</th>
+                <th scope="col">VELOCIDADE MÁXIMA</th>
+                <th scope="col">POTENCIA DO MOTOR</th>
+                <th scope="col">AUTONOMIA</th>
+                <th scope="col">TEMPO DE CARREGAMENTO</th>
                 <th scope="col">STATUS</th>
+                <th scope="col">EDITAR</th>
+                <th scope="col">EXCLUIR</th>
             </tr>
         </thead>
         <tbody>
@@ -32,13 +32,13 @@
                 <td>Preto</td>
                 <td>5500</td>
                 <td>7</td>
-                <td>Quadro de alumínio 6061 tratado</td>
-                <td>Alumínio 700"</td>
-                <td>Continental Ultrasport 700x23</td>
-                <td>Promax RC-476</td>
-                <td>10,5 Kg</td>
-                <td>Shimano Tiagra - RD-4700 - 10v e Shimano Tiagra - FD-4700 - 2v</td>
+                <td>60 Km/h</td>
+                <td>350 Wh</td>
+                <td>60 km</td>
+                <td>6h até a carga máxima</td>
                 <td>Disponível</td>
+                <td><i class="far fa-edit"></i></td>
+                <td><i class="far fa-trash-alt"></i></td>
             </tr>
             <tr>
                 <th scope="row">2</th>
@@ -47,19 +47,18 @@
                 <td>Vermelho</td>
                 <td>4900</td>
                 <td>15</td>
-                <td>Quadro de alumínio</td>
-                <td>8,5"</td>
-                <td>Continental Ultrasport 700x23</td>
-                <td>Promax RC-476</td>
-                <td>5,5 Kg</td>
-                <td>Shimano Tiagra</td>
+                <td>35 Km/h</td>
+                <td>250 Wh</td>
+                <td>40 km</td>
+                <td>4h até a carga máxima</td>
                 <td>Disponível</td>
+                <td><i class="far fa-edit"></i></td>
+                <td><i class="far fa-trash-alt"></i></td>
             </tr>
 
             </tr>
         </tbody>
     </table>
 </div>
-
 
 @endsection

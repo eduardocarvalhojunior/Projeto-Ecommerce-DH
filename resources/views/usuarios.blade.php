@@ -42,14 +42,6 @@
                 <td><i class="far fa-edit"></i></td>
                 <td><i class="far fa-trash-alt"></i></td>
             </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>matheus@gmail.com</td>
-                <td>Matheus</td>
-                <td>Ativo</td>
-                <td><i class="far fa-edit"></i></td>
-                <td><i class="far fa-trash-alt"></i></td>
-            </tr>
         </tbody>
     </table>
 </div>
